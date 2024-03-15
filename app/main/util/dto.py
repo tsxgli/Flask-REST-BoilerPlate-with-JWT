@@ -17,3 +17,10 @@ class AuthDto:
         'email': fields.String(required=True, description='The email address'),
         'password': fields.String(required=True, description='The user password '),
     })
+
+
+class PredictionDto:
+    api = Namespace('prediction', description='prediction related operations')
+    prediction = api.model('prediction', {
+        'image': fields.String(required=True, description='image to be predicted'),
+    })

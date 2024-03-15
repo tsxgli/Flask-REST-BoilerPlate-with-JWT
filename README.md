@@ -9,6 +9,8 @@ Note: make sure you have `pip` and `virtualenv` installed.
 
 Make sure to run the initial migration commands to update the database (from the venv!).
 
+    > python3.9 -m venv venv
+    > source venv/bin/activate
     > export FLASK_APP=manage.py
     
     > flask db init

@@ -105,3 +105,4 @@ ENV/
 # mypy
 .mypy_cache/
 /migrations
+VGG16_cats_dogs.h5
